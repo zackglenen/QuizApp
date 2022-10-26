@@ -1,0 +1,7 @@
+This gesture triggers the default functionality for a given item. Action = press, lift $ Touch
+This gesture enters data selection mode. Allows you to select one or more items in a view and act upon the data using a contextual action bar. Action = press, wait, lift $ Long Press
+This gesture scrolls overflowing content, or navigates between views in the same hierarchy. Action = press, move, life $ Swipe
+This gesture rearranges data within a view, or moves data into a container (e.g.folders on Home Screen). Action = long press, move, lift $ Drag
+This gesture zooms into content. Also used as a secondary gesture for text selection. Action = Two touches in quick succession $ Double Touch
+This gesture zooms into content. Action = 2-finger press, move outwards, lift $ Pinch Open
+This gesture zooms out of content. Action = 2-finger press, move inwards, lift $ Pinch Close

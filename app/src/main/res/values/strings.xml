@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="tv_userName">NAME: </string>
+    <string name="tv_questionNum">Question #:</string>
+    <string name="tv_termDef">definition</string>
+    <string name="btn_term1">term 1</string>
+    <string name="btn_term2">term 2</string>
+    <string name="btn_term3">term 3</string>
+    <string name="btn_term4">term 4</string>
+    <string name="btn_submit">Submit Answer</string>
+    <string name="btn_next">Next Question</string>
+    <string name="btn_finish">Finish Quiz</string>
+    <string name="tv_title">Welcome To The Quiz App!</string>
+    <string name="et_enterName">your name here</string>
+    <string name="btn_start">Start Quiz</string>
+    <string name="tv_scores">Your score is</string>
+    <string name="btn_restart">Restart Quiz</string>
+
+
+</resources>

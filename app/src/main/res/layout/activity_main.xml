@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/orange"
+        android:padding="20dp"
+        android:stretchColumns="1,2,3,"
+        android:theme="@style/Theme.QuizApp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15px"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/tv_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_margin="10px"
+                android:fontFamily="monospace"
+                android:text="@string/tv_userName"
+                android:textColor="@color/dark_grey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_questionNum"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:layout_marginLeft="100px"
+                android:layout_marginTop="10px"
+                android:fontFamily="monospace"
+                android:text="@string/tv_questionNum"
+                android:textColor="@color/dark_grey"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_termDef"
+                android:layout_width="300sp"
+                android:layout_height="300sp"
+                android:layout_column="1"
+                android:layout_span="2"
+                android:background="@drawable/rounded_corner_def"
+                android:fontFamily="monospace"
+                android:padding="50px"
+                android:text="@string/tv_termDef"
+                android:textColor="@color/dark_grey"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_term1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_margin="50px"
+                android:background="@drawable/rounded_corner_terms"
+                android:fontFamily="monospace"
+                android:text="@string/btn_term1"
+                android:textColor="@color/dark_grey" />
+
+            <Button
+                android:id="@+id/btn_term2"
+                style="?android:attr/buttonBarButtonStyle"
+
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="50px"
+                android:background="@drawable/rounded_corner_terms"
+                android:fontFamily="monospace"
+                android:text="@string/btn_term2"
+                android:textColor="@color/dark_grey" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_term3"
+                style="?android:attr/buttonBarButtonStyle"
+
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_margin="50px"
+                android:background="@drawable/rounded_corner_terms"
+                android:fontFamily="monospace"
+                android:text="@string/btn_term3"
+                android:textColor="@color/dark_grey"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_term4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="140sp"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_margin="50px"
+                android:background="@drawable/rounded_corner_terms"
+                android:fontFamily="monospace"
+                android:text="@string/btn_term4"
+                android:textColor="@color/dark_grey" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp">
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:background="@drawable/rounded_corner_submit"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/btn_submit"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
